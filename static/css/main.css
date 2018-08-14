@@ -23,7 +23,7 @@ h1, h2 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .grid-container > a, img {
@@ -41,4 +41,13 @@ a .project-hover-text {
 }
 a:hover .project-hover-text {
     visibility: visible; 
+}
+
+i {
+    color: black;
+    margin-left: 2%;
+}
+
+#insta {
+    margin-left: 45%;
 }
