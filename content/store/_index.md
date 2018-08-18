@@ -2,4 +2,4 @@
 title: "store"
 ---
 
-Store not running yet.
+Store still under development.
