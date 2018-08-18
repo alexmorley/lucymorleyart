@@ -1,9 +1,9 @@
 ---
-title: "Lucy Morley Art"
+title: Botanicals
 ---
 
-<div class="grid-container" id="projects-grid">
-<a href="/botanicals">
+<div class="grid-container" id="sub-project-grid">
+<a href="/projects/botanicals">
 <img src="img/small_botanicals-1.jpg" alt=Botanicals></img>
 <p class="project-hover-text">Botanicals</p>
 </a>
