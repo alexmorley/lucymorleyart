@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ block "title" . }}
+			{{ .Site.Title }}
+			{{ end }}</title>
+		{{ partial "header_common.html" }}
+	</head>
+	<body>
+		{{ partial "hamburger.html" }}
+		<!-- Code that all your templates share, like a header -->
+		{{ block "main" . }}
+		<!-- The part of the page that begins to differ between templates -->
+		{{ end }}
+		{{ block "footer" . }}
+		<!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+		<div class="block" id="links">
+			<div class="social circled iconed">
+                <a href="https://www.instagram.com/lucy__morley" rel="nofollow"><i id=insta class="fab fa-instagram"></i></a><a href="https://www.facebook.com/lucymorleyartist" rel="nofollow"><i id=fb class="fab fa-facebook-f"></i></a>
+			</div>
+		</div>
+		{{ end }}
+	</body>
+</html>

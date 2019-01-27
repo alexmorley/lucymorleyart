@@ -1,2 +1,8 @@
 [Settings]
 ID = "Lucy_Morley_Art"
+
+
+[context.production.environment]
+HUGO_VERSION = "0.46"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"

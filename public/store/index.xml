@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>store on Lucy Morley Art</title>
+    <link>https://lucymorleyart.netlify.com/store/</link>
+    <description>Recent content in store on Lucy Morley Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    
+	<atom:link href="https://lucymorleyart.netlify.com/store/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>test1</title>
+      <link>https://lucymorleyart.netlify.com/store/test-item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucymorleyart.netlify.com/store/test-item/</guid>
+      <description>Some content</description>
+    </item>
+    
+  </channel>
+</rss>
