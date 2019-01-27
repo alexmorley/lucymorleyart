@@ -1,3 +1,7 @@
+* {
+  font-family: helvetica;
+}
+
 /* Text */
 h1, h2 {
     text-align: center;
@@ -14,7 +18,31 @@ h1, h2 {
     stroke: black;
 }
 
-.navlist {
+#navList {
+  display: none;
+  width: 100px;
+  border: 0;
+  outline 0;
+  background: transparent;
+  border-bottom: 2px solid black;
+  display: block;
+  float: left;
+  margin-bottom: 5px;
+}
+
+#navList ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navList ul li {
+  border: 1px solid #ddd; 
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; 
+  padding: 3px; 
+  font-size: 10px; 
+  display: block; 
 }
 
 /* Projects Grid */
@@ -30,6 +58,10 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
 .grid-container > a, img {
     width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 a .project-hover-text {
